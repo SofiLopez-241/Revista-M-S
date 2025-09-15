@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is a basic HTML template.</p>
+
+
+  <header class="bg-light border-bottom mb-4">
+     <div class="container text-center py-3">
+      <h1 class="mb-3 bodoni-moda">EL PAÍS <span class="text-danger"></span></h1>
+       
+       <ul class="nav justify-content-center">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Internacional</a>
+        <a class="nav-link active" aria-current="page" href="#">Colombia</a>
+        <a class="nav-link active" aria-current="page" href="#">Opinión</a>
+        <a class="nav-link active" aria-current="page" href="#">Sociedad</a>
+        <a class="nav-link active" aria-current="page" href="#">Economía</a>
+        <a class="nav-link active" aria-current="page" href="#">América Futura</a>
+        <a class="nav-link active" aria-current="page" href="#">Ciencia</a>
+        <a class="nav-link active" aria-current="page" href="#">Salud </a>
+        <a class="nav-link active" aria-current="page" href="#">Tecnología</a>
+        <a class="nav-link active" aria-current="page" href="#">Cultura</a>
+        <a class="nav-link active" aria-current="page" href="#">Deportes</a>
+        <a class="nav-link active" aria-current="page" href="#">Estilo</a>
+      </div>
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <main class="container">
+    <div class="row">
+
+      <section class="col-lg-8">
+
+        <article class="card mb-4">
+          <img src="img/articulo1.jpg" class="card-img-top" alt="Imagen artículo 1">
+          <div class="card-body">
+            <h2 class="card-title h4">Titular principal de la noticia</h2>
+            <p class="card-text">Este es un resumen corto de la noticia, pensado para enganchar al lector y darle una idea del contenido.</p>
+            <p class="text-muted small">Publicado el 14 de septiembre de 2025</p>
+            <a href="#" class="btn btn-danger btn-sm">Leer más</a>
+          </div>
+        </article>
+
+        <article class="card mb-4">
+          <img src="img/articulo2.jpg" class="card-img-top" alt="Imagen artículo 2">
+          <div class="card-body">
+            <h2 class="card-title h4">Otro titular llamativo</h2>
+            <p class="card-text">Pequeña introducción o entradilla de la noticia que invite a seguir leyendo el artículo completo.</p>
+            <p class="text-muted small">Publicado el 13 de septiembre de 2025</p>
+            <a href="#" class="btn btn-danger btn-sm">Leer más</a>
+          </div>
+        </article>
+
+      </section>
+
+      <aside class="col-lg-4">
+        <div class="mb-4">
+          <h3 class="h5">Destacados</h3>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Noticia destacada 1</a></li>
+            <li class="list-group-item"><a href="#">Noticia destacada 2</a></li>
+            <li class="list-group-item"><a href="#">Suscríbete al boletín</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="h5">Categorías</h3>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge bg-secondary">Política</span>
+            <span class="badge bg-secondary">Cultura</span>
+            <span class="badge bg-secondary">Tecnología</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="bg-light border-top mt-4 py-3">
+    <div class="container text-center">
+      <p class="mb-0">© 2025 Mi Revista · <a href="#">Aviso legal</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
