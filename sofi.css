@@ -1,0 +1,17 @@
+.Bodoni-Moda-sofi {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: medium;
+}
+.divider-single {
+  height: 10px;
+  background-color: #000;
+  margin: 40px 0;
+}
+.Bodoni-Moda-sofi-gordita {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
